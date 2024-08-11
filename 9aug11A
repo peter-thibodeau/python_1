@@ -1,0 +1,16 @@
+print('IS A VOWEL OR A CONSONANT')
+
+# verify input
+inp = ('Enter a single letter: ')
+if len(inp) == 1 and inp.isnumeric():
+    chr = inp.lower()
+elif len(inp) != 1:
+    print('Error! enter a single letter.')
+else:
+    print('Error! enter letters only')
+    
+# processing
+if inp in 'aeiou':
+    print('That letter is a vowel')
+else:
+    print('That letter is a consonant')
