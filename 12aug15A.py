@@ -15,4 +15,4 @@ char = input('Enter a character to print: ')
 for i in range(0, num):
     for j in range(0, i+1):
         print(char, end="")
-    print()
+    print() # overrides end="" to start a new row
